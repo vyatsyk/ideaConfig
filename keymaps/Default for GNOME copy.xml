@@ -2,6 +2,14 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
@@ -13,6 +21,9 @@
     <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
   <action id="EditorDeleteToWordStart" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="ExportToTextFile" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="ctrl n" />
@@ -22,5 +33,7 @@
   <action id="GuiDesigner.CreateListener" />
   <action id="HippieCompletion" />
   <action id="MethodHierarchy.OverrideMethodAction" />
+  <action id="MethodUp" />
   <action id="OverrideMethods" />
+  <action id="XDebugger.MoveWatchUp" />
 </keymap>

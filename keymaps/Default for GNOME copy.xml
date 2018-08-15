@@ -1,0 +1,11 @@
+<keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
+  <action id="ExportToTextFile" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="alt o" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="GuiDesigner.CreateListener" />
+  <action id="MethodHierarchy.OverrideMethodAction" />
+  <action id="OverrideMethods" />
+</keymap>

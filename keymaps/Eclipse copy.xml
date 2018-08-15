@@ -1,0 +1,130 @@
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="Arrangement.Rule.Match.Condition.Move.Down">
+    <keyboard-shortcut first-keystroke="alt down" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="Arrangement.Rule.Match.Condition.Move.Up">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="alt w" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+  </action>
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
+  <action id="EditorDuplicateLines">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="EditorUnSelectWord" />
+  <action id="ExportToTextFile" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="shift alt 7" />
+  </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="shift alt o" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="HighlightUsagesInFile">
+    <keyboard-shortcut first-keystroke="shift ctrl f7" />
+  </action>
+  <action id="HippieCompletion" />
+  <action id="MakeGradleProject">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+  </action>
+  <action id="MoveElementLeft" />
+  <action id="MoveElementRight" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl f6" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="RunToCursor" />
+  <action id="SendEOF" />
+  <action id="Vcs.ReformatCommitMessage">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="openAssertEqualsDiff" />
+</keymap>

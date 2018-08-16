@@ -15,12 +15,14 @@
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
-  <action id="EditorDeleteLine">
+  <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="ctrl y" />
-    <keyboard-shortcut first-keystroke="ctrl back_space" />
     <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
-  <action id="EditorDeleteToWordStart" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>

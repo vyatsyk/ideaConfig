@@ -15,12 +15,14 @@
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
-  <action id="EditorDeleteLine">
+  <action id="Console.TableResult.DeleteRows">
     <keyboard-shortcut first-keystroke="ctrl y" />
-    <keyboard-shortcut first-keystroke="ctrl back_space" />
     <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
-  <action id="EditorDeleteToWordStart" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
@@ -30,10 +32,23 @@
     <keyboard-shortcut first-keystroke="alt o" />
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="shift alt o" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="GuiDesigner.CreateListener" />
   <action id="HippieCompletion" />
   <action id="MethodHierarchy.OverrideMethodAction" />
   <action id="MethodUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="NextOccurence" />
   <action id="OverrideMethods" />
+  <action id="PreviousOccurence" />
   <action id="XDebugger.MoveWatchUp" />
 </keymap>

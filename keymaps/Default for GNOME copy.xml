@@ -32,6 +32,11 @@
     <keyboard-shortcut first-keystroke="alt o" />
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="shift alt o" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="GuiDesigner.CreateListener" />
   <action id="HippieCompletion" />
   <action id="MethodHierarchy.OverrideMethodAction" />

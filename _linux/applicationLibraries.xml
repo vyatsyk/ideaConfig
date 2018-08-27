@@ -31,6 +31,35 @@
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
       </SOURCES>
     </library>
+    <library name="Python 3.6 (blockchain) interpreter library">
+      <CLASSES>
+        <root url="file://$USER_HOME$/blockchain/venv/lib/python3.6" />
+        <root url="file://$USER_HOME$/blockchain/venv/lib/python3.6/lib-dynload" />
+        <root url="file:///usr/lib/python3.6" />
+        <root url="file://$USER_HOME$/blockchain/venv/lib/python3.6/site-packages" />
+        <root url="file://$USER_HOME$/.IntelliJIdea2018.2/system/python_stubs/1836676150" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.4" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$USER_HOME$/blockchain/venv/lib/python3.6" />
+        <root url="file://$USER_HOME$/blockchain/venv/lib/python3.6/lib-dynload" />
+        <root url="file:///usr/lib/python3.6" />
+        <root url="file://$USER_HOME$/blockchain/venv/lib/python3.6/site-packages" />
+        <root url="file://$USER_HOME$/.IntelliJIdea2018.2/system/python_stubs/1836676150" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3.4" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/third_party/2and3" />
+      </SOURCES>
+    </library>
     <library name="Python 3.6 (temp) interpreter library">
       <CLASSES>
         <root url="file://$USER_HOME$/temp/venv/lib/python3.6" />

@@ -61,6 +61,10 @@
   </action>
   <action id="NextOccurence" />
   <action id="OverrideMethods" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift ctrl insert" />
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
   <action id="PreviousOccurence" />
   <action id="XDebugger.MoveWatchUp" />
 </keymap>

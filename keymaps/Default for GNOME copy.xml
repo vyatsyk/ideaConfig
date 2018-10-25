@@ -51,6 +51,7 @@
   </action>
   <action id="GuiDesigner.CreateListener" />
   <action id="HippieCompletion" />
+  <action id="Inline" />
   <action id="MethodHierarchy.OverrideMethodAction" />
   <action id="MethodUp" />
   <action id="MoveLineDown">
@@ -67,4 +68,7 @@
   </action>
   <action id="PreviousOccurence" />
   <action id="XDebugger.MoveWatchUp" />
+  <action id="curnotesstart">
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+  </action>
 </keymap>

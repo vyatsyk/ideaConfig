@@ -7,7 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.py" />
+    <option name="FILE_MASK" value="*.html" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -19,7 +19,7 @@
     <mask>*.ts</mask>
     <mask>*.js</mask>
     <mask>models.py</mask>
-    <mask>*.html</mask>
     <mask>*.py</mask>
+    <mask>*.html</mask>
   </component>
 </application>

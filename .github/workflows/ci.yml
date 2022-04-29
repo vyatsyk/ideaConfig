@@ -1,0 +1,69 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  # push:
+  #   paths:
+  #     - './*.ts'
+  #     - './src/**/*.ts'
+  #   branches:
+  #     - master
+jobs:
+  publish-patch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup NodeJS
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.14.2'
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Test action
+        run: |
+          touch a.js
+          echo BLA > a.js
+          git config --global user.name "ci-bot"
+          git config --global user.email "ci-bot@buywith.com"
+          git add .
+          git commit -m "Test"
+          git push
+  # deploy-to-stage:
+  #   needs: ci-tests # deploy to stage only if test pass
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     # - name: Extract branch name
+  #     #   shell: bash
+  #     #   run: echo "##[set-output name=branch;]${GITHUB_REF#refs/heads/}"
+  #     #   id: extract_branch
+  #     # - name: Merge
+  #     #   uses: everlytic/branch-merge@1.1.2
+  #     #   with:
+  #     #     # Note: this uses a PAT token - personal access token. The regular github.token is not enough here
+  #     #     # because automerge from workflow will not trigger the push event defined on prod.
+  #     #     # see: https://stackoverflow.com/questions/67550727/push-event-doesnt-trigger-workflow-on-push-paths-github-actions
+  #     #     github_token: ${{ secrets.WORKFLOW_AUTOMATION }}
+  #     #     target_branch: stage # required
+  #     #     commit_message_template: "[Automated] Merged branch ${{ steps.extract_branch.outputs.branch }} into branch {target_branch}"
+
+  #     # setup node & repo
+  #     - name: Checkout 🛎️
+  #       uses: actions/checkout@v2
+
+  #     - name: Setup NodeJS
+  #       uses: actions/setup-node@v2
+  #       with:
+  #         node-version: "14.17"
+  #     - name: yarn cache
+  #       uses: c-hive/gha-yarn-cache@v2
+  #     - name: Install deps 🔧
+  #       run: yarn install
+  #     - name: Deploying to ${{ steps.branch_name.outputs.branch }} 🚀
+  #       env:
+  #         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  #         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  #         BW_AUTOMATION: true
+  #       run: yarn deploy:stage:cd
